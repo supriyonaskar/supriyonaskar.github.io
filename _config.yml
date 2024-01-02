@@ -9,19 +9,35 @@ last_name: Naskar
 email: supriyo.naskar@mpip-mainz.mpg.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The academic website of Supriyo Naskar. 
-footer_text: >
 
-icon: ⚛️
-url: https://supriyonaskar.github.io/
-baseurl:  # the subpath of your site, e.g. /blog/
+
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon:   # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+
+url: https://supriyonaskar.github.io/ # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+
+# repo color theme
+repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_trophies:
+  enabled: true
+  theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
+  theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
+
+rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -30,62 +46,114 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 navbar_fixed: true
 footer_fixed: true
 
-
-
 # Dimensions
 max_width: 800px
 
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
-# Open Graph
+# Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: supriyonaskar
-gitlab_username: 
-twitter_username: NaskarSupriyo
-linkedin_username: 
-scholar_userid: 7qyxfhAAAAAJ
-orcid_id: 0000-0002-3690-6483 
+github_username: # your GitHub user name
+gitlab_username: # your GitLab user name
+x_username: # your X handle
+mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+linkedin_username: # your LinkedIn user name
+telegram_username: # your Telegram user name
+scholar_userid: # your Google Scholar ID
+semanticscholar_id: # your Semantic Scholar ID
+whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
+lattes_id: # your ID on Lattes (Brazilian Lattes CV)
+osf_id: # your OSF ID
 research_gate_profile: # your profile on ResearchGate
+scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
+wikipedia_id: # your wikipedia id (Case sensitive)
 dblp_url: # your DBLP profile url
+stackoverflow_id: # your stackoverflow id
+kaggle_id: # your kaggle id
+lastfm_id: # your lastfm id
+spotify_id: # your spotify id
+pinterest_id: # your pinterest id
+unsplash_id: # your unsplash id
+instagram_id: # your instagram id
+facebook_id: # your facebook id
+youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+discord_id: # your discord id (18-digit unique numerical identifier)
+zotero_username: # your zotero username
+wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Feel free to drop a line via email.
+  You can even add a little note about which of these is the best way to reach you.
 
-google_analytics: UA-163597289-1 # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
-google_ad_client: ca-pub-3229643567048088
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
 
+google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
+
+google_site_verification:  # your google-site-verification ID (Google Search Console)
+bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-#blog_name: Welcome to my Blog.    
-#blog_description: I write occasionally mostly about current reseach. The page will be updated soon.
-#permalink: /blog/:year/:title/
+blog_name: al-folio # blog_name will be displayed in your blog page
+blog_description: a simple whitespace theme for academics
+permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
   enabled: true
 
-# Comments
-disqus_shortname: 
+related_blog_posts:
+  enabled: true
+  max_related: 5
+
+# Giscus comments (RECOMMENDED)
+# Follow instructions on https://giscus.app/ to setup for your repo to fill out
+# the information below.
+giscus:
+  repo:                          # <your-github-user-name>/<your-github-repo-name>
+  repo_id:                       # leave empty or specify your repo_id (see https://giscus.app/) 
+  category: Comments             # name of the category under which discussions will be created
+  category_id:                   # leave empty or specify your category_id (see https://giscus.app/) 
+  mapping: title                 # identify discussions by post title
+  strict: 1                      # use strict identification mode
+  reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
+  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
+  theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
+  emit_metadata: 0
+  lang: en
+
+# Disqus comments (DEPRECATED)
+disqus_shortname: al-folio # put your disqus shortname
+# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+# External sources.
+# If you have blog posts published on medium.com or other external sources,
+# you can display them in your blog by adding a link to the RSS feed.
+external_sources:
+  - name: medium.com
+    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -101,7 +169,15 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 10
+announcements:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -110,7 +186,6 @@ news_limit: 10
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:
@@ -135,21 +210,54 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-archives
   - jekyll-email-protect
-  - jekyll-github-metadata
   - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
-  - jekyll-twitter-plugin
   - jekyll-sitemap
+  - jekyll-toc
+  - jekyll-twitter-plugin
   - jemoji
 
-# Extras
-github: [metadata]
+# Sitemap settings
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+
+sass:
+  style: compressed
 
 # -----------------------------------------------------------------------------
-# Jekyll Scholar
+# Jekyll Minifier
 # -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  exclude: ['robots.txt']
+  uglifier_args:
+    harmony: true
+
+# -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
+
+jekyll-archives:
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  layouts:
+    year: archive-year
+    tag: archive-tag
+    category: archive-category
+  permalinks:
+    year: '/blog/:year/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'
 
 display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
 display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
@@ -240,7 +348,7 @@ imagemagick:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    true  # enables google analytics
+enable_google_analytics:    false  # enables google analytics
 enable_cronitor_analytics: false  # enables cronitor RUM analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
@@ -299,6 +407,3 @@ jsonresume:
   - languages
   - interests
   - references
-
-
-
