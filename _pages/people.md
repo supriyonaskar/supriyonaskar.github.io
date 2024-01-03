@@ -17,12 +17,12 @@ nav_order: 5
    Centre national de la recherche scientifique France<br>
    [Google Scholar](https://scholar.google.fr/citations?user=QNfwyjgAAAAJ&hl=en){:target="_blank"}<br>
 
-3. **Prof. Kurt Kremer ** <br>
+3. **Prof. Kurt Kremer** <br>
    Theory Department  <br>
    Max-Planck Institute for Polymer Research Mainz Germany <br>
    [Website](https://www.mpip-mainz.mpg.de/en/kremer){:target="_blank"}, [Google Scholar](https://scholar.google.com/citations?user=4EGKVD0AAAAJ&hl=en){:target="_blank"}<br>
 
-4. ** Dr. Oleksandra Kukharenko ** <br>
+4. **Dr. Oleksandra Kukharenko** <br>
    Theory Department  <br>
    Max-Planck Institute for Polymer Research Mainz Germany <br>
    [Website](https://www.mpip-mainz.mpg.de/en/kremer/groups/kukharenko){:target="_blank"}, [Google Scholar](https://scholar.google.de/citations?user=prcdxyYAAAAJ&hl=en){:target="_blank"}<br>
@@ -57,7 +57,7 @@ nav_order: 5
    Indian Institute of Science Bangalore<br>
    [Website](https://chemeng.iisc.ac.in/chemeweb/banani.htm){:target="_blank"}, [Google Scholar](https://scholar.google.com/citations?user=a2iA6bgAAAAJ&hl=en){:target="_blank"} <br>
 
-11. **Dr. Dong Fan ** <br>
+11. **Dr. Dong Fan** <br>
    Institut Charles Gerhart of Montpellier, University of Montpellier <br>
    Centre national de la recherche scientifique France<br>
    [Google Scholar](https://scholar.google.com/citations?hl=en&user=fq_Q0rkAAAAJ){:target="_blank"}<br>
