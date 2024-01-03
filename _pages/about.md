@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as
 social: true  # includes social icons at the bottom of the page
 ---
  
-I strive to understand the physical priciples that govern the microscopic world around and within me. My research focuses on the spatial and temporal organization of proteins in cells and material design. For that I employ multiscale molecular simulation, data-driven machine learning techniques and theory from equilibrium and non-equilibrium statistical mechanics. 
+I strive to understand the physical priciples that govern the microscopic world around and within me. My research endeavors primarily focus on the quantification of the statistical characteristics inherent to nano-materials and elucidating the underlying physics behind the spatial and temporal organization of biomolecules in cells. To achieve this, I employ an integrative approach combining multiscale molecular simulations, data-driven machine learning techniques and theory from equilibrium and non-equilibrium statistical mechanics. 
 
 For more details about my research, please see research interest or [Google Scholar Page](https://scholar.google.com/citations?user=7qyxfhAAAAAJ&hl=en){:target="_blank"}.
 
