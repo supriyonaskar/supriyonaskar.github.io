@@ -3,7 +3,7 @@ layout: page
 permalink: /gallery/
 title: Gallery
 nav: gallery
-order: 5
+order: 6
 ---
 **With the members of Maurin's Lab**
 <br />
