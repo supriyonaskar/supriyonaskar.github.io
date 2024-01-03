@@ -6,11 +6,11 @@
   - name: Nationality
     value: Indian  
   - name: Email
-    value: supriyo@iisc.ac.in; supriyo199331@gmail.com
+    value: naskars@mpip-mainz.mpg.de; supriyo199331@gmail.com
   - name: Mobile
     value: (+91)-8240-930-445 
   - name: Languages
-    value: Bengali (native), English (fluent), Hindi (fluent)
+    value: English (fluent), Bengali (native), Hindi (fluent)
 
 
 - title: Areas of research
@@ -22,6 +22,32 @@
   - Biological Physics
   - Polymer Science
   - Material Science  
+
+
+
+
+- title: Work Experience
+  type: time_table
+  contents:
+  - title: 'Postdoctoral research fellow at Max Planck Institute for Polymer Research'
+    year: 2023 - now
+    location: Germany
+    description:
+            - 'Advised by  <a href="https://www.mpip-mainz.mpg.de/en/kremer/groups/kukharenko" target="_blank"><b>Dr. Oleksandra Kukharenko</b></a> and  <a href="https://www.mpip-mainz.mpg.de/en/kremer/director" target="_blank"><b>Prof. Kurt Kremer</b></a>'
+            - 'Coarse-grained Modelling of IDPs'
+  - title: 'Postdoctoral research fellow at Centre national de la recherche scientifique'
+    year: 2022 - 2023
+    location: France
+    description:
+            - 'Advised by <a href="https://scholar.google.fr/citations?user=QNfwyjgAAAAJ&hl=fr" target="_blank"><b>Prof. Guillaume Maurin</b></a>'
+            - 'Computational Modelling of Mixed-matrix membranes'
+  - title: 'Research Associate at Indian Institute of Science'
+    year: 2021 - 2022
+    location: Bangalore, India
+    description:
+            - 'Advised by <a href="http://www.physics.iisc.ernet.in/~maiti/" target="_blank"><b>Prof. Prabal K. Maiti</b></a>'
+            - 'Working on self-assembly of bio-soft materials'
+
 
 
 - title: Education
@@ -42,29 +68,3 @@
     location: Kolkata, India
     description:
           - 'Physics (Major), Chemistry, Biology'
-
-
-
-- title: Work Experience
-  type: time_table
-  contents:
-  - title: 'Postdoctoral research fellow at MPIP'
-    year: 2023 - now
-    location: Mainz, Germany
-    description:
-            - 'Advised by  <a href="https://www.mpip-mainz.mpg.de/en/kremer/groups/kukharenko" target="_blank"><b>Dr. Oleksandra Kukharenko</b></a> and  <a href="https://www.mpip-mainz.mpg.de/en/kremer/director" target="_blank"><b>Prof. Kurt Kremer</b></a>'
-            - 'Coarse-grained Modelling of IDPs'
-  - title: 'Postdoctoral research fellow at CNRS Montpellier'
-    year: 2022 - 2023
-    location: Montpellier, France
-    description:
-            - 'Advised by <a href="https://scholar.google.fr/citations?user=QNfwyjgAAAAJ&hl=fr" target="_blank"><b>Prof. Guillaume Maurin</b></a>'
-            - 'Computational Modelling of Mixed-matrix membranes'     
-  - title: 'Research Associate at Indian Institute of Science'
-    year: 2021 - 2022
-    location: Bangalore, India
-    description:
-            - 'Advised by <a href="http://www.physics.iisc.ernet.in/~maiti/" target="_blank"><b>Prof. Prabal K. Maiti</b></a>'
-            - 'Working on self-assembly of bio-soft materials'
-
-
