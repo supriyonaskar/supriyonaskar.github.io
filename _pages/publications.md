@@ -6,12 +6,8 @@ description: Publications in reversed chronological order. "*" denotes equal con
 nav: true
 nav_order: 3
 ---
-<br />
-<br />
-<img src="/assets/img/citation.png" alt="" width="350"/>
-
+<img src="/assets/img/citation.png" alt="" width="150"/>
 <!-- _pages/publications.md -->
-<br />
 <div class="publications">
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
