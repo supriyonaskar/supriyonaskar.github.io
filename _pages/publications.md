@@ -3,14 +3,13 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Publications in reversed chronological order. "*" denotes equal contribution. 
+nav: true
+nav_order: 3
+---
 <br />
 <img align=left src="/assets/img/citation.png" alt="" width="350"/>
 
 <br />
-
-nav: true
-nav_order: 3
----
 <!-- _pages/publications.md -->
 <div class="publications">
 
