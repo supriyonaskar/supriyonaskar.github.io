@@ -7,9 +7,18 @@ nav: true
 nav_order: 3
 ---
 <br />
+<br />
 <img align=left src="/assets/img/citation.png" alt="" width="350"/>
 
 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
