@@ -10,18 +10,6 @@ nav_order: 3
 <br />
 <img src="/assets/img/citation.png" alt="" width="350"/>
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <!-- _pages/publications.md -->
 <br />
 <div class="publications">
