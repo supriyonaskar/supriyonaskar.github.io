@@ -8,7 +8,7 @@ nav_order: 3
 ---
 <br />
 <br />
-<img align=left src="/assets/img/citation.png" alt="" width="350"/>
+<img src="/assets/img/citation.png" alt="" width="350"/>
 
 <br />
 <br />
@@ -23,6 +23,7 @@ nav_order: 3
 <br />
 
 <!-- _pages/publications.md -->
+<br />
 <div class="publications">
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
