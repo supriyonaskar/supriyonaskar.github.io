@@ -25,25 +25,3 @@ I am currently a Postdoctoral research fellow at [Max Planck Institute for Polym
 
 Please feel free to drop an [email](mailto:supriyo199331@gmail.com) if you have any queries.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=D-U1rNR6JSdq2IgqEbqF1HnsDzn0OSBKXAoP4mRTFIs"></script>
-
-
