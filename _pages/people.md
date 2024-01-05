@@ -2,7 +2,7 @@
 layout: page
 permalink: /collaborators/
 title: Collaborators
-nav: true
+nav: false
 nav_order: 5
 ---
 
