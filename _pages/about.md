@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to my homepage! 
 
-I strive to understand the physical priciples that govern the microscopic world around and within me. My research is primarily focus on the quantification of the statistical properties of nano-materials and elucidating the underlying physics behind the spatial and temporal organization of biomolecules in cells. To achieve this, I employ an integrative approach combining multiscale molecular simulations, data-driven machine learning techniques and theory from equilibrium and non-equilibrium statistical mechanics. 
+I strive to understand the physical principles that govern the microscopic world around and within me. My research is primarily focused on the quantification of the statistical properties of nano-materials and elucidating the underlying physics behind the spatial and temporal organization of biomolecules in cells. To achieve this, I employ an integrative approach combining multiscale molecular simulations, data-driven machine learning techniques and theory from equilibrium and non-equilibrium statistical mechanics. 
 
 For more details about my research, please visit my [research interest](https://supriyonaskar.github.io/publications/){:target="_blank"} or [Google Scholar](https://scholar.google.com/citations?user=7qyxfhAAAAAJ&hl=en){:target="_blank"} page.
 
