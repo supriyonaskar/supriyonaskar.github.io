@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications in reversed chronological order. "*" denotes equal contribution. 
+description: Publications in reversed chronological order. "*" denotes equal contribution. 18 Publications in total.  
 nav: true
 nav_order: 3
 ---
