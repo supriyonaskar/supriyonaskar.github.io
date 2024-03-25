@@ -6,8 +6,6 @@ description: Publications in reversed chronological order. "*" denotes equal con
 nav: true
 nav_order: 3
 ---
-Total Publications 
-
 <img src="/assets/img/citation.png" alt="" width="230"/>
 <!-- _pages/publications.md -->
 <div class="publications">
