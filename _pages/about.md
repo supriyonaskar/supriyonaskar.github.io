@@ -1,17 +1,26 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
-subtitle: <a>Affiliations</a>. Max Planck Institute for Polymer Research, Mainz, Germany.
+subtitle: <a href='#'>Affiliations</a>. Max Planck Institute for Polymer Research, Mainz, Germany.
 
 profile:
   align: right
-  image: supriyo1.jpg
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
 
-order: 1
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as
-social: true  # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 Hello, welcome to my homepage!
