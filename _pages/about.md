@@ -6,18 +6,13 @@ subtitle: <a>Affiliations</a>. Max Planck Institute for Polymer Research, Mainz,
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: supriyo1.jpg
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-
+order: 1
+news: true  # includes a list of news items
+selected_papers: true # includes a list of papers marked as
+social: true  # includes social icons at the bottom of the page
+---
 
 Hello, welcome to my homepage!
 
@@ -29,4 +24,5 @@ I am currently a Postdoctoral research fellow at [Max Planck Institute for Polym
 
 
 Please feel free to drop an [email](mailto:supriyo199331@gmail.com) if you have any queries.
+
 
