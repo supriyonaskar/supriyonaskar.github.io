@@ -65,22 +65,6 @@ serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
-github_username: supriyonaskar # your GitHub user name
-gitlab_username: # your GitLab user name
-x_username: NaskarSupriyo # your X handle
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
-telegram_username: # your Telegram user name
-scholar_userid: 7qyxfhAAAAAJ # your Google Scholar ID
-semanticscholar_id: # your Semantic Scholar ID
-whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: 0000-0002-3690-6483 # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-osf_id: # your OSF ID
-research_gate_profile: Supriyo-Naskar # your profile on ResearchGate
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -88,7 +72,7 @@ research_gate_profile: Supriyo-Naskar # your profile on ResearchGate
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: UA-163597289-1  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
