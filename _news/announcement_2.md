@@ -1,9 +1,8 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
-inline: false
+date: 2023-09-07 15:59:00-0400
+inline: true
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. I
+New Paper in [Chemical Science](https://doi.org/10.1039/D3SC04218A){:target="_blank"} on polymeric binders to shape powdered materials such as MOF. 
