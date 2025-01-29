@@ -1,15 +1,18 @@
 ---
 layout: post
-title: a post with bibliography
-date: 2023-07-12 09:56:00-0400
-description: an example of a blog post with bibliography
-tags: formatting bib
+title: a post with image galleries
+date: 2024-12-04 01:59:00
+description: this is what included image galleries could look like
+tags: formatting images
 categories: sample-posts
-giscus_comments: true
-related_posts: false
-related_publications: true
+thumbnail: assets/img/9.jpg
+images:
+  lightbox2: true
+  photoswipe: true
+  spotlight: true
+  venobox: true
 ---
 
-This post shows how to add bibliography to simple blog posts. We support every citation style that [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) does. 
+The images in this post are all zoomable, arranged into different mini-galleries using different libraries.
 
 
