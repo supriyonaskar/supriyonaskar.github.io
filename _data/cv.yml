@@ -1,133 +1,71 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Supriyo Naskar
-    - name: Email
-      value: naskars@mpip-mainz.mpg.de
-    - name: Phone
-      value: +49 15 21 57 01 285
-    - name: Website
-      value: supriyonaskar.github.io
-    - name: LinkedIn
-      value: supriyo-naskar-065714119
-    - name: Google Scholar ID
-      value: 7qyxfhAAAAAJ
-    - name: ORCID ID
-      value: 0000-0002-3690-6483
+  - name: Full Name
+    value: Supriyo Naskar
+  - name: Nationality
+    value: Indian  
+  - name: Email
+    value: naskars@mpip-mainz.mpg.de; supriyo199331@gmail.com
+  - name: Mobile
+    value: (+91)-8240-930-445 
+  - name: Languages
+    value: English (fluent), Bengali (native), Hindi (fluent)
+
+
+- title: Areas of research
+  type: list
+  contents:
+  - Statistical Physics    
+  - Soft Condensed Matter
+  - Computational Physics
+  - Biological Physics
+  - Polymer Science
+  - Material Science  
+
+
+
+
+- title: Work Experience
+  type: time_table
+  contents:
+  - title: 'Postdoctoral research fellow at Max Planck Institute for Polymer Research'
+    year: 2023 - now
+    location: Germany
+    description:
+            - 'Advised by  <a href="https://www.mpip-mainz.mpg.de/en/kremer/groups/kukharenko" target="_blank"><b>Dr. Oleksandra Kukharenko</b></a> and  <a href="https://www.mpip-mainz.mpg.de/en/kremer/director" target="_blank"><b>Prof. Kurt Kremer</b></a>'
+            - 'Coarse-grained Modelling of IDPs'
+  - title: 'Postdoctoral research fellow at Centre national de la recherche scientifique'
+    year: 2022 - 2023
+    location: France
+    description:
+            - 'Advised by <a href="https://scholar.google.fr/citations?user=QNfwyjgAAAAJ&hl=fr" target="_blank"><b>Prof. Guillaume Maurin</b></a>'
+            - 'Computational Modelling of Mixed-matrix membranes'
+  - title: 'Research Associate at Indian Institute of Science'
+    year: 2021 - 2022
+    location: Bangalore, India
+    description:
+            - 'Advised by <a href="http://www.physics.iisc.ernet.in/~maiti/" target="_blank"><b>Prof. Prabal K. Maiti</b></a>'
+            - 'Working on self-assembly of bio-soft materials'
+
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Physics
-      institution: Indian Institute of Science, Bangalore, India
-      year: 2016 - 2021
-      description:
-        - Thesis: Multiscale Modelling of Nucleic Acid Nanostructures
-        - Supervisor: Prof. Prabal K. Maiti
-    - title: MS in Physics
-      institution: Indian Institute of Technology (IIT) Bombay, India
-      year: 2014 - 2016
-      description:
-        - Thesis: A Tug-of-War Model for Transport of Cargo by Molecular Motors and Catch Bond Mechanism in Dynein Motors
-        - Supervisor: Prof. Mithun K. Mitra
-    - title: BS in Physics (Major), Mathematics, Chemistry
-      institution: Presidency University, Kolkata, India
-      year: 2011 - 2014
+  - title: Indian Institute of Science Bangalore – Ph.D. in Multiscale modelling of nucleic acid nanostructures
+    year: 2016 - 2021
+    location: Bangalore, India
+    description: 
+    - 'Advised by <a href="http://www.physics.iisc.ernet.in/~maiti/" target="_blank"><b>Prof. Prabal K. Maiti</b></a>'
+  - title: Indian Institute of Technology Bombay – M.Sc. in Physics
+    year: 2014 - 2016
+    location: Mumbai, India
+    description: 
+          - 'Advised by <a href="https://sites.google.com/view/thbioiitb/" target="_blank"><b>Prof. Mithun K. Mitra</b></a>'
+  - title: Presidency University Kolkata –  B.Sc. in Physics
+    year: 2011 - 2014
+    location: Kolkata, India
+    description:
+          - 'Physics (Major), Chemistry, Biology'
 
-- title: Professional Experience
-  type: time_table
-  contents:
-    - title: Postdoctoral Fellow in Polymer Concepts in Cellular Function
-      institution: Max Planck Institute for Polymer Research (MPIP), Mainz, Germany
-      year: 2023 - Present
-      description:
-        - Supervisor: Prof. Kurt Kremer and Dr. Oleksandra Kukharenko
-        - Research on phase separation and aggregation of ubiquitin and SUMO using multiscale simulations and machine learning.
-    - title: Postdoctoral Fellow in Material Science
-      institution: Institute Charles Gerhardt, University of Montpellier, CNRS, France
-      year: 2022 - 2023
-      description:
-        - Supervisor: Prof. Guillaume Maurin
-        - Modeled polymer melts and MOF matrices using Machine Learning, DFT, and molecular simulations.
-    - title: Research Associate in Soft Condensed Matter
-      institution: Indian Institute of Science, Bangalore, India
-      year: 2021
-      description:
-        - Supervisor: Prof. Prabal K. Maiti
-        - Research on interactions of living matter with exotic materials.
-
-- title: Supervising Activities
-  type: list
-  contents:
-    - Akshar Sharma, MS Project at IISc, 2018-2019.
-    - Khadka B Chetri, PhD at IISc, 2019-2021.
-
-- title: Teaching Activities
-  type: list
-  contents:
-    - Teaching Assistant for Quantum Mechanics PH203 at IISc (2018).
-    - Taught "Delay Differential Equation" for Advanced Simulation Technique at IIT Bombay (2016).
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2020
-      items:
-        - International Travel Award by Department of Science and Technology, India
-    - year: 2018 - 2021
-      items:
-        - Senior Research Fellowship, CSIR, India
-    - year: 2016 - 2018
-      items:
-        - Junior Research Fellowship, CSIR, India
-    - year: 2011 - 2016
-      items:
-        - INSPIRE Scholarship by Department of Science and Technology, India
-
-- title: Skills and Competences
-  type: nested_list
-  contents:
-    - title: Numerical Techniques
-      items:
-        - Statistical mechanics
-        - Molecular dynamics & Monte Carlo simulations
-        - Free-energy & entropy calculations
-        - Density functional theory
-        - Machine learning methods
-    - title: Programming Languages
-      items:
-        - Python
-        - Fortran
-        - Tcl
-        - Shell Scripting
-        - C
-    - title: Software
-      items:
-        - AMBER, NAMD, GROMACS, LAMMPS, Gaussian
-        - VMD, Pymol, Chimera, Xmgrace, gnuplot, GIMP, Inkscape
-
-- title: Languages
-  type: list
-  contents:
-    - English (Fluent)
-    - Bengali (Native)
-    - Hindi (Professional)
-    - German (Beginner, A1)
-
-- title: Selected Publications
-  type: list
-  contents:
-    - "Unconventional mechanical and thermal behaviors of MOF CALF-20" - Nature Communications, 2024.
-    - "Microscopic insight into shaping of MOFs and its impact on CO2 capture performance" - Chemical Science, 2023.
-    - "Mechanistic insight into structure and dynamics of DNA nanostars" - PCCP, 2023.
-    - "Ultra-high permeable phenine nanotube membranes for water desalination" - PCCP, 2022.
-    - "Liquid crystal ordering of nucleic acids" - Soft Matter, 2020.
-
-- title: References
-  type: list
-  contents:
-    - Prof. Kurt Kremer, MPIP, Mainz, Germany (Email: kremer@mpip-mainz.mpg.de)
-    - Dr. Oleksandra Kukharenko, MPIP, Mainz, Germany (Email: kukharenko@mpip-mainz.mpg.de)
-    - Prof. Guillaume Maurin, CNRS, France (Email: guillaume.maurin1@umontpellier.fr)
-    - Prof. Prabal K. Maiti, IISc, India (Email: maiti@iisc.ac.in)
