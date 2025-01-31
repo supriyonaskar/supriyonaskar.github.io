@@ -43,7 +43,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -59,7 +59,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -88,7 +88,11 @@ layout: default
       {% include newsletter.liquid center=true %}
     {% endif %}
   </article>
-  <div style="display: flex;">
+  <div style="display: flex; justify-content: center; align-items: center;">
           <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?&w=180&d=D-U1rNR6JSdq2IgqEbqF1HnsDzn0OSBKXAoP4mRTFIs"></script>
   </div>
+    <div style="text-align: center; font-family: Arial, sans-serif; margin-bottom: 10px;">
+    <h2>Visitor Map</h2>
+</div>
+
 </div>
