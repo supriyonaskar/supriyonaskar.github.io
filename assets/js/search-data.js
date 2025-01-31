@@ -172,6 +172,13 @@ ninja.data = [{
           window.open("mailto:%6E%61%73%6B%61%72%73@%6D%70%69%70-%6D%61%69%6E%7A.%6D%70%67.%64%65", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/supriyonaskar", "_blank");
+        },
+      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
@@ -186,18 +193,18 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/Supriyo-Naskar/", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=7qyxfhAAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/NaskarSupriyo", "_blank");
         },
       },{
       id: 'light-theme',
